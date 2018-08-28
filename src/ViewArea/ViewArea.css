@@ -1,0 +1,37 @@
+.ViewArea {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: calc(100% - 150px);
+}
+
+.viewArea_border {
+    background-color: black;
+    position: absolute;
+}
+
+.viewArea_border_bottom {
+    height: 10%;
+    width: 100%;
+    bottom: 0px;
+}
+
+.viewArea_border_top {
+    height: 10%;
+    width: 100%;
+    top: 0px;
+}
+
+.viewArea_border_left {
+    height: 80%;
+    width: 10%;
+    left: 0%;
+    top: 10%
+}
+
+.viewArea_border_right {
+    height: 80%;
+    width: 10%;
+    right: 0%;
+    top: 10%
+}
