@@ -86,28 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js!./src/App/App.css":
-/*!***************************************************!*\
-  !*** ./node_modules/css-loader!./src/App/App.css ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".App {\\n  text-align: center;\\n}\\n\\n.App-logo {\\n  animation: App-logo-spin infinite 20s linear;\\n  height: 80px;\\n}\\n\\n.App-header {\\n  background-color: #222;\\n  height: 150px;\\n  padding: 20px;\\n  color: white;\\n}\\n\\n.App-title {\\n  font-size: 1.5em;\\n}\\n\\n.App-intro {\\n  font-size: large;\\n}\\n\\n@keyframes App-logo-spin {\\n  from { transform: rotate(0deg); }\\n  to { transform: rotate(360deg); }\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/App.css?./node_modules/css-loader");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js!./src/ViewArea/ViewArea.css":
-/*!*************************************************************!*\
-  !*** ./node_modules/css-loader!./src/ViewArea/ViewArea.css ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".ViewArea {\\n    position: absolute;\\n    top: 150px;\\n    width: 100%;\\n    height: calc(100% - 150px);\\n}\\n\\n.viewArea_border {\\n    background-color: black;\\n    position: absolute;\\n}\\n\\n.viewArea_border_bottom {\\n    height: 10%;\\n    width: 100%;\\n    bottom: 0px;\\n}\\n\\n.viewArea_border_top {\\n    height: 10%;\\n    width: 100%;\\n    top: 0px;\\n}\\n\\n.viewArea_border_left {\\n    height: 80%;\\n    width: 10%;\\n    left: 0%;\\n    top: 10%\\n}\\n\\n.viewArea_border_right {\\n    height: 80%;\\n    width: 10%;\\n    right: 0%;\\n    top: 10%\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/ViewArea/ViewArea.css?./node_modules/css-loader");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/index.js!./src/index.css":
 /*!*************************************************!*\
   !*** ./node_modules/css-loader!./src/index.css ***!
@@ -116,6 +94,39 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0;\\n  font-family: sans-serif;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/index.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/views/App/App.css":
+/*!*********************************************************!*\
+  !*** ./node_modules/css-loader!./src/views/App/App.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".App {\\n  text-align: center;\\n}\\n\\n.App-logo {\\n  animation: App-logo-spin infinite 20s linear;\\n  height: 80px;\\n}\\n\\n.App-header {\\n  background-color: #222;\\n  height: 150px;\\n  padding: 20px;\\n  color: white;\\n}\\n\\n.App-title {\\n  font-size: 2.5em;\\n  animation: App-logo-spin infinite 5s linear;\\n  color: aqua;\\n}\\n\\n.App-intro {\\n  font-size: large;\\n}\\n\\n@keyframes App-logo-spin {\\n  0%   { transform: rotateY(0deg); }\\n  25%   { transform: rotateY(0deg); }\\n  50%  { transform: rotateY(360deg); }\\n  75%  { transform: rotateX(0deg); }\\n  100% { transform: rotateX(360deg); }\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/views/App/App.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/views/Calendar/Calendar.css":
+/*!*******************************************************************!*\
+  !*** ./node_modules/css-loader!./src/views/Calendar/Calendar.css ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".Calendar {\\n    position: absolute;\\n    top: 150px;\\n    width: 100%;\\n    height: calc(100% - 150px);\\n}\\n\\n.calendar_border {\\n    background-color: black;\\n    position: absolute;\\n}\\n\\n.calendar_border_bottom {\\n    height: 10%;\\n    width: 100%;\\n    bottom: 0px;\\n}\\n\\n.calendar_border_top {\\n    height: 10%;\\n    width: 100%;\\n    top: 0px;\\n}\\n\\n.calendar_border_left {\\n    height: 80%;\\n    width: 10%;\\n    left: 0%;\\n    top: 10%\\n}\\n\\n.calendar_border_right {\\n    height: 80%;\\n    width: 10%;\\n    right: 0%;\\n    top: 10%\\n}\\n\\n.DaysContainer {\\n    height: 75%;\\n    width: 75%;\\n    right: 15%;\\n    top: 15%;\\n    border: 5px black solid;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/views/Calendar/Calendar.css?./node_modules/css-loader");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./src/views/KeyBar/KeyBar.css":
+/*!***************************************************************!*\
+  !*** ./node_modules/css-loader!./src/views/KeyBar/KeyBar.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".KeyBar {\\n    position: absolute;\\n    bottom: 12%;\\n    width: 80%;\\n    left:10%;\\n    height: 5%;\\n    display: flex;\\n    flex-direction: row\\n}\\n\\n.KeyBar_Uni {\\n    width: 22%;\\n    height: 100%;\\n    margin: auto;\\n    text-align: center;\\n    vertical-align: middle;\\n    line-height: 100%;\\n    flex-basis: auto;\\n}\\n\\n.KeyBar_Work{\\n    background-color: cyan;\\n}\\n\\n.KeyBar_School{\\n    background-color: yellow;\\n}\\n\\n.KeyBar_Available{\\n    background-color: darkorchid;\\n}\\n\\n.KeyBar_Key{\\n    border: 1px black solid;\\n}\\n\\n.KeyBar_center {\\n    top: 35%;\\n    position: relative;\\n}\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/views/KeyBar/KeyBar.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -404,99 +415,6 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
-/***/ "./src/App/App.css":
-/*!*************************!*\
-  !*** ./src/App/App.css ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./App.css */ \"./node_modules/css-loader/index.js!./src/App/App.css\");\nif(typeof content === 'string') content = [[module.i, content, '']];\n// Prepare cssTransformation\nvar transform;\n\nvar options = {\"hmr\":true}\noptions.transform = transform\n// add the styles to the DOM\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/App.css?");
-
-/***/ }),
-
-/***/ "./src/App/components/App.js":
-/*!***********************************!*\
-  !*** ./src/App/components/App.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _logo = __webpack_require__(/*! ../logo.svg */ \"./src/App/logo.svg\");\n\nvar _logo2 = _interopRequireDefault(_logo);\n\n__webpack_require__(/*! ../App.css */ \"./src/App/App.css\");\n\nvar _ViewArea = __webpack_require__(/*! ./../../ViewArea/ */ \"./src/ViewArea/index.js\");\n\nvar _ViewArea2 = _interopRequireDefault(_ViewArea);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'App' },\n        _react2.default.createElement(\n          'header',\n          { className: 'App-header' },\n          _react2.default.createElement('img', { src: _logo2.default, className: 'App-logo', alt: 'logo' }),\n          _react2.default.createElement(\n            'h1',\n            { className: 'App-title' },\n            'Welcome to React'\n          )\n        ),\n        _react2.default.createElement(_ViewArea2.default, null)\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App/components/App.js?");
-
-/***/ }),
-
-/***/ "./src/App/components/index.js":
-/*!*************************************!*\
-  !*** ./src/App/components/index.js ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _App = __webpack_require__(/*! ./App */ \"./src/App/components/App.js\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _App2.default;\n\n//# sourceURL=webpack:///./src/App/components/index.js?");
-
-/***/ }),
-
-/***/ "./src/App/index.js":
-/*!**************************!*\
-  !*** ./src/App/index.js ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _components = __webpack_require__(/*! ./components/ */ \"./src/App/components/index.js\");\n\nvar _components2 = _interopRequireDefault(_components);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _components2.default;\n\n//# sourceURL=webpack:///./src/App/index.js?");
-
-/***/ }),
-
-/***/ "./src/App/logo.svg":
-/*!**************************!*\
-  !*** ./src/App/logo.svg ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"5d5d9eefa31e5e13a6610d9fa7a283bb.svg\";\n\n//# sourceURL=webpack:///./src/App/logo.svg?");
-
-/***/ }),
-
-/***/ "./src/ViewArea/ViewArea.css":
-/*!***********************************!*\
-  !*** ./src/ViewArea/ViewArea.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!./ViewArea.css */ \"./node_modules/css-loader/index.js!./src/ViewArea/ViewArea.css\");\nif(typeof content === 'string') content = [[module.i, content, '']];\n// Prepare cssTransformation\nvar transform;\n\nvar options = {\"hmr\":true}\noptions.transform = transform\n// add the styles to the DOM\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(false) {}\n\n//# sourceURL=webpack:///./src/ViewArea/ViewArea.css?");
-
-/***/ }),
-
-/***/ "./src/ViewArea/ViewArea.js":
-/*!**********************************!*\
-  !*** ./src/ViewArea/ViewArea.js ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./ViewArea.css */ \"./src/ViewArea/ViewArea.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar ViewArea = function (_Component) {\n    _inherits(ViewArea, _Component);\n\n    function ViewArea() {\n        _classCallCheck(this, ViewArea);\n\n        return _possibleConstructorReturn(this, (ViewArea.__proto__ || Object.getPrototypeOf(ViewArea)).apply(this, arguments));\n    }\n\n    _createClass(ViewArea, [{\n        key: \"render\",\n        value: function render() {\n            return _react2.default.createElement(\n                \"div\",\n                { className: \"ViewArea\" },\n                _react2.default.createElement(\"div\", { className: \"viewArea_border_top viewArea_border\" }),\n                _react2.default.createElement(\"div\", { className: \"viewArea_border_bottom viewArea_border\" }),\n                _react2.default.createElement(\"div\", { className: \"viewArea_border_right viewArea_border\" }),\n                _react2.default.createElement(\"div\", { className: \"viewArea_border_left viewArea_border\" }),\n                _react2.default.createElement(\n                    \"h1\",\n                    null,\n                    \"This is a test of the system\"\n                )\n            );\n        }\n    }]);\n\n    return ViewArea;\n}(_react.Component);\n\nexports.default = ViewArea;\n\n//# sourceURL=webpack:///./src/ViewArea/ViewArea.js?");
-
-/***/ }),
-
-/***/ "./src/ViewArea/index.js":
-/*!*******************************!*\
-  !*** ./src/ViewArea/index.js ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _ViewArea = __webpack_require__(/*! ./ViewArea */ \"./src/ViewArea/ViewArea.js\");\n\nvar _ViewArea2 = _interopRequireDefault(_ViewArea);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _ViewArea2.default;\n\n//# sourceURL=webpack:///./src/ViewArea/index.js?");
-
-/***/ }),
-
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
@@ -516,7 +434,7 @@ eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// lo
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\n__webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\nvar _index = __webpack_require__(/*! ./App/index */ \"./src/App/index.js\");\n\nvar _index2 = _interopRequireDefault(_index);\n\nvar _registerServiceWorker = __webpack_require__(/*! ./registerServiceWorker */ \"./src/registerServiceWorker.js\");\n\nvar _registerServiceWorker2 = _interopRequireDefault(_registerServiceWorker);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_index2.default, null), document.getElementById('root'));\n(0, _registerServiceWorker2.default)();\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\n__webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\nvar _index = __webpack_require__(/*! ./views/App/index */ \"./src/views/App/index.js\");\n\nvar _index2 = _interopRequireDefault(_index);\n\nvar _registerServiceWorker = __webpack_require__(/*! ./registerServiceWorker */ \"./src/registerServiceWorker.js\");\n\nvar _registerServiceWorker2 = _interopRequireDefault(_registerServiceWorker);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_index2.default, null), document.getElementById('root'));\n(0, _registerServiceWorker2.default)();\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -529,6 +447,134 @@ eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/i
 
 "use strict";
 eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = register;\nexports.unregister = unregister;\n// In production, we register a service worker to serve assets from local cache.\n\n// This lets the app load faster on subsequent visits in production, and gives\n// it offline capabilities. However, it also means that developers (and users)\n// will only see deployed updates on the \"N+1\" visit to a page, since previously\n// cached resources are updated in the background.\n\n// To learn more about the benefits of this model, read https://goo.gl/KwvDNy.\n// This link also includes instructions on opting out of this behavior.\n\nvar isLocalhost = Boolean(window.location.hostname === 'localhost' ||\n// [::1] is the IPv6 localhost address.\nwindow.location.hostname === '[::1]' ||\n// 127.0.0.1/8 is considered localhost for IPv4.\nwindow.location.hostname.match(/^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));\n\nfunction register() {\n  if (false) { var publicUrl; }\n}\n\nfunction registerValidSW(swUrl) {\n  navigator.serviceWorker.register(swUrl).then(function (registration) {\n    registration.onupdatefound = function () {\n      var installingWorker = registration.installing;\n      installingWorker.onstatechange = function () {\n        if (installingWorker.state === 'installed') {\n          if (navigator.serviceWorker.controller) {\n            // At this point, the old content will have been purged and\n            // the fresh content will have been added to the cache.\n            // It's the perfect time to display a \"New content is\n            // available; please refresh.\" message in your web app.\n            console.log('New content is available; please refresh.');\n          } else {\n            // At this point, everything has been precached.\n            // It's the perfect time to display a\n            // \"Content is cached for offline use.\" message.\n            console.log('Content is cached for offline use.');\n          }\n        }\n      };\n    };\n  }).catch(function (error) {\n    console.error('Error during service worker registration:', error);\n  });\n}\n\nfunction checkValidServiceWorker(swUrl) {\n  // Check if the service worker can be found. If it can't reload the page.\n  fetch(swUrl).then(function (response) {\n    // Ensure service worker exists, and that we really are getting a JS file.\n    if (response.status === 404 || response.headers.get('content-type').indexOf('javascript') === -1) {\n      // No service worker found. Probably a different app. Reload the page.\n      navigator.serviceWorker.ready.then(function (registration) {\n        registration.unregister().then(function () {\n          window.location.reload();\n        });\n      });\n    } else {\n      // Service worker found. Proceed as normal.\n      registerValidSW(swUrl);\n    }\n  }).catch(function () {\n    console.log('No internet connection found. App is running in offline mode.');\n  });\n}\n\nfunction unregister() {\n  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.ready.then(function (registration) {\n      registration.unregister();\n    });\n  }\n}\n\n//# sourceURL=webpack:///./src/registerServiceWorker.js?");
+
+/***/ }),
+
+/***/ "./src/store/data.json":
+/*!*****************************!*\
+  !*** ./src/store/data.json ***!
+  \*****************************/
+/*! exports provided: days, default */
+/***/ (function(module) {
+
+eval("module.exports = {\"days\":[{\"day\":\"Monday\",\"periods\":[{\"start\":\"6:00\",\"end\":\"9:40\",\"description\":\"work\"},{\"start\":\"9:40\",\"end\":\"11:40\",\"description\":\"school\"},{\"start\":\"11:40\",\"end\":\"16:00\",\"description\":\"work\"}]},{\"day\":\"Tuesday\",\"periods\":[{\"start\":\"6:00\",\"end\":\"9:40\",\"description\":\"work\"},{\"start\":\"9:40\",\"end\":\"11:40\",\"description\":\"school\"},{\"start\":\"11:40\",\"end\":\"16:00\",\"description\":\"work\"}]},{\"day\":\"Wednesday\",\"periods\":[{\"start\":\"6:00\",\"end\":\"9:40\",\"description\":\"work\"},{\"start\":\"9:40\",\"end\":\"11:40\",\"description\":\"school\"},{\"start\":\"11:40\",\"end\":\"16:00\",\"description\":\"work\"}]},{\"day\":\"Thursday\",\"periods\":[{\"start\":\"6:00\",\"end\":\"9:40\",\"description\":\"work\"},{\"start\":\"9:40\",\"end\":\"11:40\",\"description\":\"school\"},{\"start\":\"11:40\",\"end\":\"16:00\",\"description\":\"work\"}]},{\"day\":\"Friday\",\"periods\":[{\"start\":\"6:00\",\"end\":\"13:00\",\"description\":\"work\"}]}]};\n\n//# sourceURL=webpack:///./src/store/data.json?");
+
+/***/ }),
+
+/***/ "./src/views/App/App.css":
+/*!*******************************!*\
+  !*** ./src/views/App/App.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./App.css */ \"./node_modules/css-loader/index.js!./src/views/App/App.css\");\nif(typeof content === 'string') content = [[module.i, content, '']];\n// Prepare cssTransformation\nvar transform;\n\nvar options = {\"hmr\":true}\noptions.transform = transform\n// add the styles to the DOM\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(false) {}\n\n//# sourceURL=webpack:///./src/views/App/App.css?");
+
+/***/ }),
+
+/***/ "./src/views/App/components/App.js":
+/*!*****************************************!*\
+  !*** ./src/views/App/components/App.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _Calendar = __webpack_require__(/*! ../../Calendar/ */ \"./src/views/Calendar/index.js\");\n\nvar _Calendar2 = _interopRequireDefault(_Calendar);\n\nvar _data = __webpack_require__(/*! ../../../store/data */ \"./src/store/data.json\");\n\nvar _data2 = _interopRequireDefault(_data);\n\n__webpack_require__(/*! ../App.css */ \"./src/views/App/App.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        { className: 'App' },\n        _react2.default.createElement(\n          'header',\n          { className: 'App-header' },\n          _react2.default.createElement(\n            'h1',\n            { className: 'App-title' },\n            'Tycko\\'s Fall Schedule'\n          )\n        ),\n        _react2.default.createElement(_Calendar2.default, { data: _data2.default })\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/views/App/components/App.js?");
+
+/***/ }),
+
+/***/ "./src/views/App/components/index.js":
+/*!*******************************************!*\
+  !*** ./src/views/App/components/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _App = __webpack_require__(/*! ./App */ \"./src/views/App/components/App.js\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _App2.default;\n\n//# sourceURL=webpack:///./src/views/App/components/index.js?");
+
+/***/ }),
+
+/***/ "./src/views/App/index.js":
+/*!********************************!*\
+  !*** ./src/views/App/index.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _components = __webpack_require__(/*! ./components/ */ \"./src/views/App/components/index.js\");\n\nvar _components2 = _interopRequireDefault(_components);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _components2.default;\n\n//# sourceURL=webpack:///./src/views/App/index.js?");
+
+/***/ }),
+
+/***/ "./src/views/Calendar/Calendar.css":
+/*!*****************************************!*\
+  !*** ./src/views/Calendar/Calendar.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./Calendar.css */ \"./node_modules/css-loader/index.js!./src/views/Calendar/Calendar.css\");\nif(typeof content === 'string') content = [[module.i, content, '']];\n// Prepare cssTransformation\nvar transform;\n\nvar options = {\"hmr\":true}\noptions.transform = transform\n// add the styles to the DOM\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(false) {}\n\n//# sourceURL=webpack:///./src/views/Calendar/Calendar.css?");
+
+/***/ }),
+
+/***/ "./src/views/Calendar/Calendar.js":
+/*!****************************************!*\
+  !*** ./src/views/Calendar/Calendar.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./Calendar.css */ \"./src/views/Calendar/Calendar.css\");\n\nvar _KeyBar = __webpack_require__(/*! ../KeyBar/ */ \"./src/views/KeyBar/index.js\");\n\nvar _KeyBar2 = _interopRequireDefault(_KeyBar);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Calendar = function (_Component) {\n    _inherits(Calendar, _Component);\n\n    function Calendar(props) {\n        _classCallCheck(this, Calendar);\n\n        var _this = _possibleConstructorReturn(this, (Calendar.__proto__ || Object.getPrototypeOf(Calendar)).call(this, props));\n\n        _this.state = {\n            numberOfDays: props.data.days.length\n        };\n        return _this;\n    }\n\n    _createClass(Calendar, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                { className: 'Calendar' },\n                _react2.default.createElement('div', { className: 'calendar_border_top calendar_border' }),\n                _react2.default.createElement('div', { className: 'calendar_border_bottom calendar_border' }),\n                _react2.default.createElement('div', { className: 'calendar_border_right calendar_border' }),\n                _react2.default.createElement('div', { className: 'calendar_border_left calendar_border' }),\n                _react2.default.createElement(\n                    'h1',\n                    null,\n                    this.state.numberOfDays\n                ),\n                _react2.default.createElement('div', { className: 'DaysContainer' }),\n                _react2.default.createElement(_KeyBar2.default, null)\n            );\n        }\n    }]);\n\n    return Calendar;\n}(_react.Component);\n\nexports.default = Calendar;\n\n//# sourceURL=webpack:///./src/views/Calendar/Calendar.js?");
+
+/***/ }),
+
+/***/ "./src/views/Calendar/index.js":
+/*!*************************************!*\
+  !*** ./src/views/Calendar/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _Calendar = __webpack_require__(/*! ./Calendar */ \"./src/views/Calendar/Calendar.js\");\n\nvar _Calendar2 = _interopRequireDefault(_Calendar);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _Calendar2.default;\n\n//# sourceURL=webpack:///./src/views/Calendar/index.js?");
+
+/***/ }),
+
+/***/ "./src/views/KeyBar/KeyBar.css":
+/*!*************************************!*\
+  !*** ./src/views/KeyBar/KeyBar.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!./KeyBar.css */ \"./node_modules/css-loader/index.js!./src/views/KeyBar/KeyBar.css\");\nif(typeof content === 'string') content = [[module.i, content, '']];\n// Prepare cssTransformation\nvar transform;\n\nvar options = {\"hmr\":true}\noptions.transform = transform\n// add the styles to the DOM\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\nif(content.locals) module.exports = content.locals;\n// Hot Module Replacement\nif(false) {}\n\n//# sourceURL=webpack:///./src/views/KeyBar/KeyBar.css?");
+
+/***/ }),
+
+/***/ "./src/views/KeyBar/KeyBar.js":
+/*!************************************!*\
+  !*** ./src/views/KeyBar/KeyBar.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./KeyBar.css */ \"./src/views/KeyBar/KeyBar.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar KeyBar = function (_Component) {\n    _inherits(KeyBar, _Component);\n\n    function KeyBar(props) {\n        _classCallCheck(this, KeyBar);\n\n        var _this = _possibleConstructorReturn(this, (KeyBar.__proto__ || Object.getPrototypeOf(KeyBar)).call(this, props));\n\n        _this.state = {};\n        return _this;\n    }\n\n    _createClass(KeyBar, [{\n        key: \"render\",\n        value: function render() {\n            return _react2.default.createElement(\n                \"div\",\n                { className: \"KeyBar\" },\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"KeyBar_Key KeyBar_Uni\" },\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"KeyBar_center\" },\n                        \"Key:\"\n                    )\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"KeyBar_Work KeyBar_Uni\" },\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"KeyBar_center\" },\n                        \"Work\"\n                    )\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"KeyBar_School KeyBar_Uni\" },\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"KeyBar_center\" },\n                        \"School\"\n                    )\n                ),\n                _react2.default.createElement(\n                    \"div\",\n                    { className: \"KeyBar_Available KeyBar_Uni\" },\n                    _react2.default.createElement(\n                        \"div\",\n                        { className: \"KeyBar_center\" },\n                        \"Available\"\n                    )\n                )\n            );\n        }\n    }]);\n\n    return KeyBar;\n}(_react.Component);\n\nexports.default = KeyBar;\n\n//# sourceURL=webpack:///./src/views/KeyBar/KeyBar.js?");
+
+/***/ }),
+
+/***/ "./src/views/KeyBar/index.js":
+/*!***********************************!*\
+  !*** ./src/views/KeyBar/index.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _KeyBar = __webpack_require__(/*! ./KeyBar */ \"./src/views/KeyBar/KeyBar.js\");\n\nvar _KeyBar2 = _interopRequireDefault(_KeyBar);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _KeyBar2.default;\n\n//# sourceURL=webpack:///./src/views/KeyBar/index.js?");
 
 /***/ })
 

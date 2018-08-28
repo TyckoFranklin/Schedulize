@@ -1,0 +1,40 @@
+.KeyBar {
+    position: absolute;
+    bottom: 12%;
+    width: 80%;
+    left:10%;
+    height: 5%;
+    display: flex;
+    flex-direction: row
+}
+
+.KeyBar_Uni {
+    width: 22%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    flex-basis: auto;
+}
+
+.KeyBar_Work{
+    background-color: cyan;
+}
+
+.KeyBar_School{
+    background-color: yellow;
+}
+
+.KeyBar_Available{
+    background-color: darkorchid;
+}
+
+.KeyBar_Key{
+    border: 1px black solid;
+}
+
+.KeyBar_center {
+    top: 35%;
+    position: relative;
+}
