@@ -48,7 +48,7 @@ class Day extends Component {
                 className={description + "Period daySinglePeriod"}
                 style={{height: heightPercentage + "%", top: startPercentage + "%"}}
             >
-                <div className={"periodStartTime"}>{start}</div>
+                <div className={"periodStartTime"}>{this.capitalizeFirstLetter(description) + " " + start}</div>
                 {/*<div className={"periodDescription"}>{this.capitalizeFirstLetter(description)}</div>*/}
                 <div className={"periodEndTime"}>{end}</div>
             </div>
