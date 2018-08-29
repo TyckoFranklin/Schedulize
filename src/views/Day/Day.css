@@ -1,40 +1,62 @@
-.KeyBar {
-    position: absolute;
-    bottom: 12%;
-    width: 80%;
-    left:10%;
-    height: 5%;
-    display: flex;
-    flex-direction: row
-}
-
-.KeyBar_Uni {
-    width: 22%;
-    height: 100%;
+.Day {
+    width: 2%;
+    height: 98%;
     margin: auto;
     text-align: center;
     vertical-align: middle;
     line-height: 100%;
     flex-basis: auto;
+    background-color: darkorchid;
+    border: 1px solid lightslategrey;
 }
 
-.KeyBar_Work{
+.dayTitle {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    background-color: lightslategrey;
+    line-height: 100%;
+}
+
+.dayPeriods {
+    width: 100%;
+    height: 95%;
+    position: relative;
+}
+
+.daySinglePeriod {
+    width: 100%;
+    position: absolute;
+}
+
+.workPeriod {
     background-color: cyan;
 }
 
-.KeyBar_School{
-    background-color: yellow;
-}
-
-.KeyBar_Available{
+.availablePeriod {
     background-color: darkorchid;
 }
 
-.KeyBar_Key{
-    border: 1px black solid;
+.reallyPeriod {
+    background-color: chocolate;
+
 }
 
-.KeyBar_center {
-    top: 35%;
-    position: relative;
+.schoolPeriod {
+    background-color: yellow
 }
+
+.periodStartTime {
+    font-size: 0.75em;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+}
+
+.periodEndTime {
+    font-size: 0.75em;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+

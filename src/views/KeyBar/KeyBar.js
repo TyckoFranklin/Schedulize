@@ -15,6 +15,7 @@ class KeyBar extends Component {
                 <div className="KeyBar_Work KeyBar_Uni"><div className="KeyBar_center">Work</div></div>
                 <div className="KeyBar_School KeyBar_Uni"><div className="KeyBar_center">School</div></div>
                 <div className="KeyBar_Available KeyBar_Uni"><div className="KeyBar_center">Available</div></div>
+                <div className="KeyBar_Out KeyBar_Uni"><div className="KeyBar_center">Outside Work Hours</div></div>
             </div>
         );
     }

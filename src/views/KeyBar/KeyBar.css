@@ -9,13 +9,14 @@
 }
 
 .KeyBar_Uni {
-    width: 22%;
+    width: 16%;
     height: 100%;
     margin: auto;
     text-align: center;
     vertical-align: middle;
     line-height: 100%;
     flex-basis: auto;
+    border: 1px black solid;
 }
 
 .KeyBar_Work{
@@ -37,4 +38,8 @@
 .KeyBar_center {
     top: 35%;
     position: relative;
+}
+
+.KeyBar_Out {
+    background-color: chocolate;
 }

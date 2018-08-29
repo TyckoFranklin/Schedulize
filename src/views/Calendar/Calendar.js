@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./Calendar.css";
 import KeyBar from '../KeyBar/';
+import Day from '../Day/';
 
 class Calendar extends Component {
     constructor(props) {
@@ -18,7 +19,11 @@ class Calendar extends Component {
                 <div className="calendar_border_left calendar_border"></div>
                 <h1>{this.state.numberOfDays}</h1>
                 <div className="DaysContainer">
-
+                    {this.props.data.days.map((day)=>{
+                        return (
+                            <Day day={day} numDays={this.state.numberOfDays} ></Day>
+                        )
+                    })}
                 </div>
                 <KeyBar/>
             </div>
