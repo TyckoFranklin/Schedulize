@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="960ca556-84de-4ee9-8c52-5de3bc59a386" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Calendar/Calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Calendar/Calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Calendar/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Calendar/Calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Day/Day.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Day/Day.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Day/Day.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Day/Day.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/KeyBar/KeyBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/KeyBar/KeyBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/KeyBar/KeyBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/KeyBar/KeyBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="960ca556-84de-4ee9-8c52-5de3bc59a386" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -86,6 +75,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="18" />
           <entry key="json" value="6" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -94,7 +84,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="18" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
@@ -212,15 +202,6 @@
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/views/App/App.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -396,12 +377,12 @@
       <workItem from="1534561501685" duration="670000" />
       <workItem from="1534564482530" duration="4502000" />
       <workItem from="1535423795465" duration="1720000" />
-      <workItem from="1535425521396" duration="15474000" />
+      <workItem from="1535425521396" duration="16078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24455000" />
+    <option name="totallyTimeSpent" value="25059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -634,6 +615,9 @@
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
